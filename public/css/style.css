@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: red;
+    align-items: center;
+}
+
+.navbar .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    opacity: 0.7;
+}
+
+.contact-btn {
+    background: #fff;
+    color: red !important;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+/* HOME SECTION */
+.home {
+    padding: 60px;
+}
+
+.home-content h1 {
+    font-size: 40px;
+}
+
+.home-content h3 {
+    color: red;
+    font-size: 22px;
+}
+
+.red {
+    color: red;
+}
+
+.home-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    max-width: 600px;
+    background: rgba(255, 0, 0, 0.07);
+    padding: 12px 18px;
+    border-left: 4px solid red;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: red;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* SECTIONS */
+.section-title {
+    font-size: 32px;
+    margin: 30px 0;
+    text-align: center;
+    color: red;
+}
+
+/* ABOUT SECTION */
+.about-text p {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 80%;
+    border-left: 4px solid red;
+}
+
+/* SKILLS */
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
+
+.skill-card {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 28%;
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+
+/* PROJECTS */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 40px;
+}
+
+.project-card {
+    background: #fafafa;
+    padding: 18px;
+    width: 28%;
+    border-radius: 10px;
+    border-left: 5px solid red;
+}
+
+/* CONTACT */
+.contact-form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #bbb;
+    font-size: 16px;
+}
+
+.success {
+    color: green;
+    text-align: center;
+    font-size: 18px;
+}

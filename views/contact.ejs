@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <h2 class="logo">Portfolio</h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/skills">Skills</a></li>
+        <li><a href="/projects">Projects</a></li>
+        <li><a href="/contact" class="contact-btn">Contact</a></li>
+    </ul>
+</nav>
+
+
+<section class="contact-section">
+    <h1 class="section-title">Contact Me</h1>
+
+    <% if (typeof success !== "undefined") { %>
+        <p class="success">✅ Message sent successfully!</p>
+    <% } %>
+
+    <form action="/contact" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="email" name="email" placeholder="Your Email" required>
+
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>

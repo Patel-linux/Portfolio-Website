@@ -1,17 +1,20 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Pranay Patel Portfolio Website",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["portfolio", "nodejs", "express"],
+  "author": "Pranay Patel",
   "license": "ISC",
-  "type": "commonjs",
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
-    "mongoose": "^8.19.2"
+    "mongoose": "^8.5.1"
   }
 }
